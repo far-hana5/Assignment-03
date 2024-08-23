@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+     <!--google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+     <!--font awasome cdm-->
+     <script src="https://kit.fontawesome.com/69a0f5046c.js" crossorigin="anonymous"></script>
+     <!--tailwind css-->
+     <script src="https://cdn.tailwindcss.com"></script>
+     
+
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+     <script>
+         tailwind.config = {
+           theme: {
+             extend: {
+               colors: {
+                 clifford: '#da373d',
+                 'bike-primary':'rgb(171, 239, 95)',
+                  'bgall':'rgb(249, 255, 229)',
+                  'banner-btn':'rgba(171, 239, 95, 0.5)',
+               }
+             }
+           }
+         }
+       </script>
+
+<style>
+  .font-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+</style>
+</head>
+<!--
+<body class="font-manrope">
+    
+  <main class="container mx-auto">
+   <nav class="">
+    <div class="navbar bg-base-100 bg-bgall">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+            
+
+          </ul>
+        </div>
+        <a class="btn text-xl"><i class="fa-solid fa-arrow-right rounded-full bg-bike-primary -rotate-45"></i> Rinterio</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 ">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class=" navbar-end hidden md:flex">
+        <i class="fa-solid fa-magnifying-glass p-4 bg-white rounded-2xl shadow-xl" ></i>
+        <i class="fa-solid fa-cart-shopping p-4 bg-white rounded-2xl ml-2 mr-2 shadow-xl"></i>
+        <a class="btn bg-bike-primary">Book Consult <i class="fa-solid fa-arrow-right rounded-xl bg-black shadow-xl text-white -rotate-45"></i> </a>
+      </div>
+    </div>
+   
+   </nav>
+  </main>
+</body>
+-->
+
+<body class="font-manrope">
+<main class="">
+    <nav class="">
+      <div class="navbar bg-base-100 md:container mx-auto md:bg-bgall ">
+        <div class="navbar-start ">
+          <a class="btn text-xl font-bold">
+            <i class="fa-solid fa-arrow-right rounded-full bg-bike-primary -rotate-45 p-2  "></i> Rinterio
+          </a>
+        </div>
+        
+       
+        <div class=" relative hidden justify-end w-full md:flex ">
+          <div class="navbar-center">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>
+              <li><a class="text-gray-400">Services</a></li>
+              <li><a class="text-gray-400">Portfolio</a></li>
+              <li><a class="text-gray-400">Blogs</a></li>
+              <li><a class="text-gray-400">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="flex items-center navbar-end ">
+            <i class="fa-solid fa-magnifying-glass p-4 bg-white rounded-2xl shadow-xl"></i>
+            <i class="fa-solid fa-cart-shopping p-4 bg-white rounded-2xl ml-2 mr-2 shadow-xl"></i>
+            <a class="btn bg-bike-primary rounded-full">Book Consult <i class="fa-solid fa-arrow-right rounded-full bg-black shadow-xl text-white -rotate-45 p-2"></i></a>
+          </div>
+        </div>
+
+       
+        <div class="justify-end w-4/12  md:hidden ">
+          <div class="dropdown ">
+            <div tabindex="0" role="button" class="btn btn-ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1]  mt-3 w-0 p-0 shadow">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!--nav is complete-->
+  
+<section>
+      <div>
+     
+<div class=""><img class="mx-auto   justify-center" src="./assets/banner.png" alt=""></div>
+<div class="text-center mx-auto">
+<h1 class="font-bold  text-3xl  md:text-5xl">
+  A barn house of this design has a <br> striking appearance
+</h1>
+<p class=" max-w-xl mx-auto text-gray-300 mt-6 mb-7">
+  The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+
+</p>
+<button class="rounded-full font-bold text-xl p-4 bg-banner-btn">View Details 
+  <i class="fa-solid fa-arrow-right rounded-full bg-bike-primary -rotate-45 p-2  "></i></button>
+</div>
+      </div>
+
+    </section>
+ 
+
+    
+  </main>
+</body>
+
+</html>
